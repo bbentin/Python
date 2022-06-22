@@ -1,3 +1,11 @@
-name = "Bruno"
+def digaOi(nome):
+    if nome == '':
+            print('Você não digitou seu nome')
+            return
+    else:
+        print("Olá", nome)
+    
 
-print("Olá",name)
+chamada = input("Seu nome:")
+
+digaOi(chamada)
